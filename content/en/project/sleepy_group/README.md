@@ -5,10 +5,10 @@ date: "2020-05-16" # Date you first upload your project.
 title: "Sleepy Group"
 
 # List the names of the collaborators within the [ ]. If alone, simple put your name within []
-names: [Samuel Guay, Pierre Bellec]
+names: [Grace Burns, Alena Ionova, Gaithtry Rameswaran, Talia Fiaani]
 
 # Your project GitHub repository URL
-github_repo: https://github.com/PSY6983-2021/project_template
+github_repo: https://github.com/brainhack-school2026/sleep_group_project
 
 # If you are working on a project that has website, indicate the full url including "https://" below or leave it empty.
 website:
