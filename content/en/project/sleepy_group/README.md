@@ -83,9 +83,9 @@ Over the four weeks, we developed and ran an analysis pipeline comparing sleep a
 
 You are currently reading the report template! I will let you judge whether it is useful or not. If you think there is something that could be improved, please do not hesitate to open an issue [here](https://github.com/PSY6983-2021/project_template/issues/) and let us know.
 
-#### Deliverable 2: project gallery
+#### Deliverable 2: Final Presentation
 
-You can check out the [2020 BrainHack School project gallery](https://psy6983.brainhackmtl.org/project/)
+You can check out our consolidated results explained in our [final presentation slide deck]((https://docs.google.com/presentation/d/1MpFA_dsS9CCAzxvj50GzfHXu-GUe8yn-H_Zna1hJcV8/edit?usp=sharing))
 
 ##### ECG pupilometry pipeline by Marce Kauffmann
 
