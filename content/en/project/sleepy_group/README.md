@@ -59,6 +59,9 @@ At the end of this project, we created:
 
 ## Results
 
+<img width="1571" height="887" alt="Screenshot 2026-06-25 at 11 35 09 AM" src="https://github.com/user-attachments/assets/1e77162b-d513-45fe-b1de-cf135904a165" />
+
+
 ### Progress overview
 
 Over the four weeks, we developed and ran an analysis pipeline comparing sleep and wake resting-state connectivity using fMRI and EEG. 
