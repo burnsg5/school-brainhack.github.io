@@ -23,7 +23,7 @@ summary: This project investigates how resting-state functional connectivity dif
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
-image: ""
+image: <img width="1575" height="886" alt="Screenshot 2026-06-25 at 11 18 13 AM" src="https://github.com/user-attachments/assets/795c6db5-6272-4666-ab88-62a13e5f7220" /> ""
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
