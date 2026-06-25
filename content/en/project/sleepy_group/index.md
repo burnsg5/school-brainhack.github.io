@@ -2,7 +2,7 @@
 type: "project" # DON'T TOUCH THIS ! :)
 date: "2026-06-19" # Date you first upload your project.
 # Title of your project (we like creative title)
-title: "Sleepy Group"
+title: "Understanding Sleep vs Wake Brain Connectivity Using Simultaneous fMRI and EEG"
 
 # List the names of the collaborators within the [ ]. If alone, simple put your name within []
 names: [Grace Burns, Alena Ionova, Gaithtry Rameswaran, Talia Fiaani]
