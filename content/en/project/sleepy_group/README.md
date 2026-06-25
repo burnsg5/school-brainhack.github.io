@@ -79,13 +79,13 @@ Over the four weeks, we developed and ran an analysis pipeline comparing sleep a
 
 ### Results
 
-#### Deliverable 1: report template
+#### Deliverable 1: GitHub Repository
 
-You are currently reading the report template! I will let you judge whether it is useful or not. If you think there is something that could be improved, please do not hesitate to open an issue [here](https://github.com/PSY6983-2021/project_template/issues/) and let us know.
+The GitHub repository contains the full code analysis and scripts used for preprocessing, connectivity analysis, and results generation, including the network comparison, connectivity matrices, and frequency connectivity matrices described above [here](https://github.com/brainhack-school2026/sleep_group_project) .
 
 #### Deliverable 2: Final Presentation
 
-You can check out our consolidated results explained in our [final presentation slide deck]((https://docs.google.com/presentation/d/1MpFA_dsS9CCAzxvj50GzfHXu-GUe8yn-H_Zna1hJcV8/edit?usp=sharing))
+You can check out our consolidated results explained in our [final presentation slide deck](https://docs.google.com/presentation/d/1MpFA_dsS9CCAzxvj50GzfHXu-GUe8yn-H_Zna1hJcV8/edit?usp=sharing)
 
 ##### ECG pupilometry pipeline by Marce Kauffmann
 
