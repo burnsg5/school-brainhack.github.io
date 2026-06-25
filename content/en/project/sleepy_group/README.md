@@ -92,4 +92,3 @@ You can check out our consolidated results explained in our [final presentation 
 This project achieved a full analysis of both fMRI and EEG data, comparing connectivity between sleep and wake states. While fMRI network-level comparisons showed no significant differences between states, EEG frequency-band analysis revealed that theta-band connectivity was reliably higher during sleep than during wake, as well as higher than sleep delta and beta rhythms. 
 
 Thank you to the BrainHack School organizers and Toronto mentors, Dr. Erin Dickie, and TAs for their guidance throughout the course. 
-
