@@ -31,7 +31,14 @@ image: ""
 
 ### Background
 
-Inspired by the [Recurse Centre](https://www.recurse.com/) initiative (formally known as the "hacker school"), Brainhack School was established in 2018 with the mission to train students from multidisciplinary backgrounds to a panoply of reproducible tools for neural data science, using a project-based approach. Following an initial 3-weeks long pilot, a 4th week was added with an intensive bootcamp, so that students could choose what tools to learn more deeply in their projects. As the course became integrated in standard curriculum at different universities, the formula seemed to be working. In order to streamline the different stages of the project, some standard template and milestones needed to be incorporated in a github-based workflow. The "project template" project (which is also our first BHS meta-project) aims at establishing such a standardized template. You can check the following [video](https://youtu.be/PTYs_JFKsHI) where Pierre Bellec gives an overview of the Brainhack school.
+Functional connectivity in the brain is how different regions of the brain synchronously activate to perform certain tasks. Resting State Functional Connectivity (RSFC) is a measure often used in neuroscience research to characterize this brain connectivity at rest, which can be useful in understanding which regions are communicating with each other, and if there are any disturbances to these connections. 
+Traditionally, RSFC is measured during an awake but relaxed state, however, this may not always be possible in certain populations like young children and is therefore sometimes done during sleep. 
+In this project we investigate how RSFC differs between asleep and awake states using both electroencephalography (EEG) and functional Magnetic Resonance Imaging (fMRI), two common neuroimaging modalities. 
+Both tools give us an understanding of brain function, but through different modalities. EEG measures the electrical activity of the brain, while fMRI measures brain activity indirectly through the Blood-Oxygen-Level-Dependent (BOLD) signal, which measures oxygenated and deoxygenated blood in different regions of the brain. 
+
+Sleep stages are reflected in distinct EEG frequency patterns, so EEG helps identify whether the brain is in a wake-like, NREM-like, or transitional state, something fMRI alone cannot distinguish. 
+Subjects do commonly fall asleep during resting-state fMRI scans, likely due to the lack of stimulation and task demands (Tagliazucchi and Laufs, 2014), which has motivated the use of simultaneous EEG or eye-tracking alongside fMRI. 
+As EEG is sensitive to sleep stage in a way that fMRI is not, combining both modalities will allow us to more confidently characterize brain states and ask whether connectivity patterns measured with fMRI are mirrored in the EEG signals. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PTYs_JFKsHI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
