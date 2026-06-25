@@ -40,9 +40,9 @@ Sleep stages are reflected in distinct EEG frequency patterns, so EEG helps iden
 Subjects do commonly fall asleep during resting-state fMRI scans, likely due to the lack of stimulation and task demands (Tagliazucchi and Laufs, 2014), which has motivated the use of simultaneous EEG or eye-tracking alongside fMRI. 
 As EEG is sensitive to sleep stage in a way that fMRI is not, combining both modalities will allow us to more confidently characterize brain states and ask whether connectivity patterns measured with fMRI are mirrored in the EEG signals. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PTYs_JFKsHI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ### Tools
+
+For this project, fMRI data were analyzed using FSL and Nilearn in Python, while EEG processing and analysis were carried out using MATLAB with EEGLAB/AMRI toolboxes and MNE-Python. Jupyter notebooks were used to organize and run the analysis pipelines, with GitHub used for code sharing and version control. Together, these tools allowed us to preprocess multimodal data, calculate EEG frequency and connectivity measures, and compare brain network patterns across sleep and wake states.
 
 The "project template" project will rely on the following technologies:
  * Markdown, to structure the text.
@@ -51,26 +51,31 @@ The "project template" project will rely on the following technologies:
 
 ### Data
 
-Ultimately, the project template will be used by all BHS participants. Data on the different projects will be aggregareted on the [following page](https://psy6983.brainhackmtl.org/project). This will serve as an additional example gallery in the years to come for future brainhack school students. Many reports from [BHS 2020](https://github.com/brainhack-school2020) already used this template.
+The OpenNeuro dataset “Simultaneous EEG and fMRI signals during sleep from humans” is an open-access multimodal sleep dataset collected from 33 healthy young adults (mean ages 22.1; 17 male/ 16 female) at Pennsylvania State University. Participants completed two resting-state scans and several sleep sessions, with simultaneous EEG, fMRI, and structural MRI data collected during different brain states. The dataset also includes EEG sleep staging performed by a registered polysomnographic technologist, making it useful for comparing brain connectivity during wake/rest and sleep states (classifying epochs as wake, N1, N2 or N3). The fMRI data was already preprocessed. OpenNeuro link to access data: https://openneuro.org/datasets/ds003768/versions/1.0.13 
 
 ### Deliverables
 
-At the end of this project, we will have:
- - The current markdown document, completed and revised.
- - A gallery of the student projects at Brainhack 2020.
- - Instructions on the website about how to submit a pull request to the [brainhack school website](https://github.com/PSY6983-2021) in order to add the project description to the website.
+At the end of this project, we created:
+ - Preprocessed EEG data from all 33 participants including removal of MRI interference and movement correction. 
+ - Github repository containing the full code analysis and scripts including preprocessing and connectivity analysis.
+ - A results breakdown including network comparison (group level).
+ - Connectivity matrices (group level and individual level).
+ - Frequency connectivity matrices (group level).
 
 ## Results
 
 ### Progress overview
 
-The project was swiftly initiated by P Bellec, based on the existing template created in 2019 by Tristan Glatard and improved by different students. It was really not that hard. Community feedback is expected to lead to rapid further improvements of this first version.
+Over the four weeks, we developed and ran an analysis pipeline comparing sleep and wake resting-state connectivity using fMRI and EEG. 
 
-### Tools I learned during this project
+### Tools we learned and used during this project
 
- * **Meta-project** P Bellec learned how to do a meta project for the first time, which is developping a framework while using it at the same time. It felt really weird, but somehow quite fun as well.
- * **Github workflow-** The successful use of this template approach will demonstrate that it is possible to incorporate dozens of students presentation on a website collaboratively over a few weeks.
- * **Project content** Through the project reports generated using the template, it is possible to learn about what exactly the brainhack school students are working on.
+ * **Terminal:** running code in the terminal
+ * **Python:** all scripts are written in python
+ * **Jupyter notebook:** all scripts were prototyped/ run in jupyter notebook
+ * **Git and GitHub:** for version control and open access
+ * **fMRI specific tools used:** FSL, NiLearn (python)
+ *  **EEG specific tools used:** MatLab - EEGLab/ AMRI Toolboxes, MNE python
 
 ### Results
 
