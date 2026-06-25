@@ -15,11 +15,11 @@ website:
 
 # List +- 4 keywords that best describe your project within []. Note that the project summary also involves a number of key words. Those are listed on top of the [github repository](https://github.com/PSY6983-2021/project_template), click `manage topics`.
 # Please only lowercase letters
-tags: [project, github, markdown, brainhack]
+tags: [project, github, multimodal, brainhack, fMRI, EEG, Sleep]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "Each project repository should have a markdown file explaining the background and objectives of the project, as well as a summary of the results, and links to the different deliverables of the project. Project reports are incorporated in the BHS [website](https://psy6983.brainhackmtl.org/project)."
+summary: This project investigates how resting-state functional connectivity differs between sleep and wake states using simultaneous EEG and fMRI data from the OpenNeuro "Simultaneous EEG and fMRI signals during sleep from humans" dataset. By comparing default mode network connectivity and EEG frequency-band connectivity across states, the project found minimal differences at the network level but a reliable increase in theta-band connectivity during sleep, highlighting the value of combining modalities to characterize state-dependent brain connectivity.
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
