@@ -1,6 +1,6 @@
 ---
 type: "project" # DON'T TOUCH THIS ! :)
-date: "2020-05-16" # Date you first upload your project.
+date: "2026-06-19" # Date you first upload your project.
 # Title of your project (we like creative title)
 title: "Sleepy Group"
 
@@ -43,11 +43,6 @@ As EEG is sensitive to sleep stage in a way that fMRI is not, combining both mod
 ### Tools
 
 For this project, fMRI data were analyzed using FSL and Nilearn in Python, while EEG processing and analysis were carried out using MATLAB with EEGLAB/AMRI toolboxes and MNE-Python. Jupyter notebooks were used to organize and run the analysis pipelines, with GitHub used for code sharing and version control. Together, these tools allowed us to preprocess multimodal data, calculate EEG frequency and connectivity measures, and compare brain network patterns across sleep and wake states.
-
-The "project template" project will rely on the following technologies:
- * Markdown, to structure the text.
- * The Hugo website framework which is used by the BHS website. This makes it possible to easily add the markdown project description to the website.
- * Adding the project to the website relies on github, through pull requests.
 
 ### Data
 
